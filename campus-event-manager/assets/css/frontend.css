@@ -1,0 +1,48 @@
+/* Frontend styles for Campus Event Manager plugin */
+
+.campus-events-list {
+    margin: 20px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.campus-event-item {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.campus-event-item h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.5em;
+}
+
+.campus-event-item p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.event-description {
+    margin-top: 10px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.event-description p {
+    margin: 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .campus-event-item {
+        padding: 15px;
+    }
+
+    .campus-event-item h3 {
+        font-size: 1.3em;
+    }
+}
